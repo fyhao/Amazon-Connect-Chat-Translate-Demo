@@ -96,6 +96,7 @@ const Ccp = () => {
           });
 
         console.log("CDEBUG ===> subscribeConnectEvents");
+		console.log("CDEBUG ===> after subscribe connect");
 
         // If this is a chat session
         if (window.connect.ChatSession) {
